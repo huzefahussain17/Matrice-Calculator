@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    color: purple;
+}
+
+h3{
+    font-size: large;
+    padding-left: 30px;
+}
+
+h2 a {
+    color: purple;
+}
+
+label{
+    color: purple;
+    margin-left: 20px;
+    }
+
+button {
+    margin-left: 50px;
+    
+    font-size: large;
+    
+    color: purple;
+    
+}
+
+input {
+    margin-left: 50px;
+}
+
+select {
+    margin-left: 50px;
+}

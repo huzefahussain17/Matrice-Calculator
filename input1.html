@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.5.1/math.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <br><br>
+  <h3>Scroll down to see the result</h3><br>
+  <h3> <label>
+      Select Row Of First Matrix:</h3><br>
+  <input type="number" id="FirstMatRow">
+  </label>
+  <br />
+  <br>
+  <hr>
+  <br />
+  <br />
+  <h3> <label>
+      Select Column Of First Matrix:</h3><br>
+  <input type="number" id="FirstMatCol">
+  </label>
+  <br />
+  <br>
+  <hr>
+  <br />
+  <br />
+  <h3><label for="matrix">Select Matrix Calculation Type:</label></h3><br>
+  <select name="matrix" id="matrixCalType">
+    <option value="Select Matrix Length">Select Matrix Length</option>
+    <option id="matOpt2"></option>
+    <option id="matOpt2"></option>
+    <option id="matOpt2"></option>
+    <option id="matOpt2"></option>
+    <option id="matOpt2"></option>
+  </select>
+  <br />
+  <br />
+  <hr>
+  <br />
+  <br />
+  <button onclick="cal()">Calculate</button>
+  <div name="matrix" id="result">
+    <p id="res"></p>
+    <p id="res"></p>
+    <p id="res"></p>
+    <p id="res"></p>
+    <p id="res"></p>
+  </div>
+  <script src="./input1.js"></script>
+
+</body>
+
+</html>

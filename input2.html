@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.5.1/math.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <br><br>
+  <h3>Scroll down to see the result</h3>
+  <br>
+
+  <h3><label>
+      Select Row Of First Matrix:</h3><br>
+  <input type="number" id="FirstMatRow">
+  </label>
+  <br />
+  <br />
+  <hr>
+  <br>
+  <br>
+  <label>
+    <h3> Select Column Of First Matrix:</h3><br>
+    <input type="number" id="FirstMatCol">
+  </label>
+  <br />
+  <br />
+  <hr>
+  <br>
+  <br>
+  <label>
+    <h3> Select Row Of Second Matrix:</h3><br>
+    <input type="number" id="SecondMatRow">
+  </label>
+
+  <br />
+  <br />
+  <hr>
+  <br>
+  <br>
+  <label>
+    <h3>Select Column Of Second Matrix:</h3><br>
+    <input type="number" id="SecondMatCol">
+  </label>
+
+  <br />
+  <br />
+  <hr>
+  <br>
+  <br>
+
+  <label for="matrix">
+    <h3>Select Matrix Calculation Type:</h3><br>
+  </label>
+  <select name="matrix" id="matrixCalType">
+    <option value="Select Matrix Length">Select Matrix Length</option>
+    <option id="matOpt2"></option>
+    <option id="matOpt2"></option>
+    <option id="matOpt2"></option>
+    <option id="matOpt2"></option>
+    <option id="matOpt2"></option>
+  </select>
+
+  <br />
+  <br />
+  <hr>
+  <br />
+  <br />
+  <button onclick="cal()">Calculate</button>
+  <p id="FirstMat"></p>
+  <p id="SecondMat"></p>
+  <div style="margin: 0;">
+    <p><span id="res00"></span><span id="res01"></span><span id="res02"></span><span id="res03"></span><span
+        id="res04"></span></p>
+    <p><span id="res10"></span><span id="res11"></span><span id="res12"></span><span id="res13"></span><span
+        id="res14"></span></p>
+    <p><span></span><span></span><span></span><span></span><span></span></p>
+    <p><span></span><span></span><span></span><span></span><span></span></p>
+    <p><span></span><span></span><span></span><span></span><span></span></p>
+  </div>
+
+  <script src="./input2.js"></script>
+
+</body>
+
+</html>
